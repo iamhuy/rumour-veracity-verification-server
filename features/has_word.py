@@ -1,5 +1,5 @@
 from utils import preprocess_tweet
-from src.features import google_bad_words_list, noswearing_bad_words_list, netlingo_acronyms_list
+from features import google_bad_words_list, noswearing_bad_words_list, netlingo_acronyms_list
 
 
 def check_existence_of_words(tweet, wordlist):

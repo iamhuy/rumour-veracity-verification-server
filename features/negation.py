@@ -1,4 +1,4 @@
-from src.features import stanford_dependency_parser
+from features import stanford_dependency_parser
 def get_average_negation(tweet):
     """
     Return the average negation and the bin value of having negation relation based on Stanford Parser

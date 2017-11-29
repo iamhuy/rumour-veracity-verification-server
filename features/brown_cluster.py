@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from src.lib.ark_twokenize_py import twokenize
+from lib.ark_twokenize_py import twokenize
 from . import url_regex, url2_regex, mention_regex, brown_cluster_dict
 import re
 

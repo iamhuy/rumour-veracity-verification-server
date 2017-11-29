@@ -15,6 +15,9 @@ def predict(feature_vector):
     y_pred_prob = classifier.predict_proba(X_test)
     y_pred = classifier.predict(X_test).tolist()
 
-    return (y_pred[0], y_pred_prob)
+    return {
+        'veracity': y_pred[0],
+        'probability': y_pred_prob[0][y_pred][0]
+    }
 
 

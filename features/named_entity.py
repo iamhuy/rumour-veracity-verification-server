@@ -1,4 +1,4 @@
-from src.features import stanford_ner
+from features import stanford_ner
 from nltk import word_tokenize
 
 def get_named_entity(tweet):

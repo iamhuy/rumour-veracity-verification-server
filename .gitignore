@@ -2,7 +2,7 @@
 .idea/*
 
 flask-aws/
-
+data/external/
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*

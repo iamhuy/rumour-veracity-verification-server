@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import nltk
 from utils import preprocess_tweet
-from src.features import monogram_tagset, bigram_tagset, trigram_tagset, fourgram_tagset
+from features import monogram_tagset, bigram_tagset, trigram_tagset, fourgram_tagset
 
 def get_ngram_postag_vector(tweet, n):
     """

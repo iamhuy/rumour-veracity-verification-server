@@ -2,11 +2,7 @@ import json
 import pickle
 import os
 from settings import MODELS_ROOT
-from utils import read_testing_processed_data
-from semeval_scorer import sem_eval_score
 from utils import get_subset_features
-
-
 
 feature_bitmask_file = open(os.path.join(MODELS_ROOT, 'feature_bitmask'), "r")
 feature_bitmask = json.loads(feature_bitmask_file.read())

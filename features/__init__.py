@@ -77,13 +77,13 @@ def get_wordlist(filename):
         wordList = pickle.load(f)
     return wordList
 
-surprisePath = os.path.join(DATA_EXTERNAL_ROOT, 'surprise_list_file')
-doubtPath = os.path.join(DATA_EXTERNAL_ROOT, 'doubt_list_file')
-noDoubtPath = os.path.join(DATA_EXTERNAL_ROOT, 'nodoubt_list_file')
-
-surpriseList = get_wordlist(surprisePath)
-doubtList = get_wordlist(doubtPath)
-noDoubtList = get_wordlist(noDoubtPath)
+# surprisePath = os.path.join(DATA_EXTERNAL_ROOT, 'surprise_list_file')
+# doubtPath = os.path.join(DATA_EXTERNAL_ROOT, 'doubt_list_file')
+# noDoubtPath = os.path.join(DATA_EXTERNAL_ROOT, 'nodoubt_list_file')
+#
+# surpriseList = get_wordlist(surprisePath)
+# doubtList = get_wordlist(doubtPath)
+# noDoubtList = get_wordlist(noDoubtPath)
 nltk.download('stopwords')
 
 

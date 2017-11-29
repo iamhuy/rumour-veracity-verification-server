@@ -7,7 +7,6 @@ from emoticon import get_emoticons_vectors
 from brown_cluster import brown_cluster
 from has_word import contain_noswearing_bad_words, contain_acronyms, contain_google_bad_words
 from regular_expressions import regex_vector
-from get_score import get_vectors
 from word_length import average_word_length, description_length
 from named_entity import get_named_entity
 from negation import get_average_negation
