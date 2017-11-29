@@ -1,6 +1,9 @@
 .pyc
 .idea/*
 
+flask-aws/
+
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
