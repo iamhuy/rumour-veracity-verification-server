@@ -1,4 +1,4 @@
-#!/home/helloworld/thesis/flask-aws-tutorial/flask-aws/bin/python2
+#!/home/helloworld/thesis/rumour-veracity-verification-server/flask-aws/bin/python
 
 # $Id: rst2latex.py 5905 2009-04-16 12:04:49Z milde $
 # Author: David Goodger <goodger@python.org>

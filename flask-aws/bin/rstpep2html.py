@@ -1,4 +1,4 @@
-#!/home/helloworld/thesis/flask-aws-tutorial/flask-aws/bin/python2
+#!/home/helloworld/thesis/rumour-veracity-verification-server/flask-aws/bin/python
 
 # $Id: rstpep2html.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

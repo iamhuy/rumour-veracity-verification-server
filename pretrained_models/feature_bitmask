@@ -1,0 +1,146 @@
+{
+    "favorites_score": [
+        9, 
+        10
+    ], 
+    "average_word_length": [
+        2, 
+        3
+    ], 
+    "no_doubt_score": [
+        23676, 
+        23677
+    ], 
+    "num_followers": [
+        5, 
+        6
+    ], 
+    "has_negation": [
+        23681, 
+        23682
+    ], 
+    "num_dotdotdot": [
+        12, 
+        13
+    ], 
+    "description_length": [
+        1, 
+        2
+    ], 
+    "has_description": [
+        0, 
+        1
+    ], 
+    "user_verified": [
+        4, 
+        5
+    ], 
+    "regex": [
+        23669, 
+        23674
+    ], 
+    "sentiment": [
+        23638, 
+        23639
+    ], 
+    "has_dotdotdot": [
+        11, 
+        12
+    ], 
+    "average_negation": [
+        23680, 
+        23681
+    ], 
+    "brown_cluster": [
+        17, 
+        1017
+    ], 
+    "pos_tag_1gram": [
+        1018, 
+        1030
+    ], 
+    "num_exclamation_mark": [
+        14, 
+        15
+    ], 
+    "num_question_mark": [
+        16, 
+        17
+    ], 
+    "has_acronyms": [
+        23666, 
+        23667
+    ], 
+    "emoticon": [
+        23643, 
+        23666
+    ], 
+    "has_bad_word": [
+        23667, 
+        23668
+    ], 
+    "stance": [
+        23639, 
+        23643
+    ], 
+    "engagement_score": [
+        8, 
+        9
+    ], 
+    "has_exclamation_mark": [
+        13, 
+        14
+    ], 
+    "doubt_score": [
+        23675, 
+        23676
+    ], 
+    "has_question_mark": [
+        15, 
+        16
+    ], 
+    "role_score": [
+        7, 
+        8
+    ], 
+    "geo_enabled": [
+        3, 
+        4
+    ], 
+    "has_swearing_word": [
+        23668, 
+        23669
+    ], 
+    "pos_tag_3gram": [
+        1174, 
+        2902
+    ], 
+    "has_url": [
+        1017, 
+        1018
+    ], 
+    "pos_tag_2gram": [
+        1030, 
+        1174
+    ], 
+    "originality_score": [
+        6, 
+        7
+    ], 
+    "named_entity": [
+        23677, 
+        23680
+    ], 
+    "is_reply": [
+        10, 
+        11
+    ], 
+    "suprise_score": [
+        23674, 
+        23675
+    ], 
+    "pos_tag_4gram": [
+        2902, 
+        23638
+    ]
+}

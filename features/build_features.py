@@ -83,12 +83,11 @@ def collect_feature(tweet):
     feature_vector += get_ngram_postag_vector(tweet['text'], 4)
 
     # Sentiment features
-    # sentiment_vector
-    feature_vector += get_sentiment_value(tweet['text'])
+    # feature_vector += get_sentiment_value(tweet['text'])
+    feature_vector += [0]
 
     # Stance features
     stance_vector = [0,0,0,0]
-    stance_vector[STANCE_LABELS_MAPPING[tweet['stance']]] = 1
     feature_vector += stance_vector
 
 
@@ -108,7 +107,8 @@ def collect_feature(tweet):
     feature_vector += regex_vector(tweet['text'])
 
     # Doubt Score, No Doubt Score, Surprise score
-    feature_vector += get_vectors(tweet['text'])
+    # feature_vector += get_vectors(tweet['text'])
+    feature_vector += [0,0,0]
 
     # Get Named Entity Recognition
     feature_vector += get_named_entity(tweet['text'])

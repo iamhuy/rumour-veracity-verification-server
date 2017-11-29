@@ -1,4 +1,4 @@
-#!/home/helloworld/thesis/flask-aws-tutorial/flask-aws/bin/python2
+#!/home/helloworld/thesis/rumour-veracity-verification-server/flask-aws/bin/python
 
 # Author: 
 # Contact: grubert@users.sf.net

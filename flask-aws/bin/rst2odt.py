@@ -1,4 +1,4 @@
-#!/home/helloworld/thesis/flask-aws-tutorial/flask-aws/bin/python2
+#!/home/helloworld/thesis/rumour-veracity-verification-server/flask-aws/bin/python
 
 # $Id: rst2odt.py 5839 2009-01-07 19:09:28Z dkuhlman $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

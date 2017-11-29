@@ -7,8 +7,9 @@ Author: Scott Rodkey - rodkeyscott@gmail.com
 Step-by-step tutorial: https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80
 '''
 from __future__ import print_function
-
+from features.build_features import collect_feature
 from flask import Flask, render_template, request, make_response
+from models import predict
 import sys
 
 # Elastic Beanstalk initalization
@@ -26,7 +27,11 @@ def index():
         return resp
 
     if request.method == 'POST':
-        print(request.get_json(), sys.stderr)
+        tweet = request.get_json()
+
+    feature_vector = collect_feature(tweet)
+
+    print(predict(feature_vector), sys.stderr)
 
     return resp
 

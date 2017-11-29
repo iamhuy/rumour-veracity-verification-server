@@ -1,4 +1,4 @@
-#!/home/helloworld/thesis/flask-aws-tutorial/flask-aws/bin/python2
+#!/home/helloworld/thesis/rumour-veracity-verification-server/flask-aws/bin/python
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde
