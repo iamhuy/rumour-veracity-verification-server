@@ -49,7 +49,7 @@ dask==0.14.1
 datashape==0.5.4
 decorator==4.0.11
 dill==0.2.6
-Django==1.11.3
+Django==1.11.23
 docker==2.6.1
 docker-pycreds==0.2.1
 docutils==0.13.1
