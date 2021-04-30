@@ -182,7 +182,7 @@ repoze.lru==0.6
 requests==2.13.0
 requests-oauthlib==0.8.0
 rope==0.9.4
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.1.11
 scandir==1.5
 scikit-image==0.13.0
