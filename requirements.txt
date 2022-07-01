@@ -123,7 +123,7 @@ numpydoc==0.6.0
 oauthlib==2.0.2
 odo==0.5.0
 olefile==0.44
-openpyxl==2.4.1
+openpyxl==2.4.2
 packaging==16.8
 pandas==0.19.2
 pandocfilters==1.4.1
